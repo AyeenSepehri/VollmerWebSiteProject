@@ -1,13 +1,17 @@
 import Banner from './components/BannerFolder/Banner';
-import textBox from "./assets/textBox/finalBox2.png"
+import TextBox from './components/Boxes/TextBoxFolder/TextBox';
+import Footer from './components/Footer/Footer';
 
 function App() {
+
   return (
     <div className="App">
       <Banner/>
-      <h1>helllllo world</h1>
-      <p>lkdhfashdfkjasdfhakjsdhfkasjdlfjahsd.ifha/lsdkfih/dh/fashdfahsd.fkjshdkfjah/skdjhf.audfhyaiua</p>
-      <img src={textBox}/>
+      <TextBox/>
+      <TextBox/>
+      <TextBox/>
+
+      <Footer/>
     </div>
   );
 }
