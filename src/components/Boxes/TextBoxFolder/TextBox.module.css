@@ -1,0 +1,33 @@
+.container {
+    background-image: url("../../../assets/textBox/finalBox2.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    position: relative;
+    width: 75%;
+    height: 25em;
+    margin-top: 0px;
+  }
+  
+  .container .text {
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  @media (max-width: 768px) {
+    .container {
+        height: 18.75em;   
+ }
+
+ .container .text {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    /* flex-wrap: wrap; */
+    transform: translate(-50%, -50%);
+  }
+  }
